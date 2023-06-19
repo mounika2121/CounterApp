@@ -10,6 +10,7 @@ class Counter extends Component {
   onDecrement = () => {
     this.setState((prevState) => ({ count: prevState.count - 1 }))
   }
+  
   render() {
     const { count } = this.state
     return (
