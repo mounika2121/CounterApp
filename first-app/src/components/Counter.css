@@ -1,0 +1,24 @@
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count{
+    color: blue;
+    font-size: 50px;
+}
+
+.button{
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    font-weight: 600;
+    color: blueviolet;
+    margin-right: 10px;
+}
